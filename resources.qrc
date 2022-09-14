@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/new/prefix1">
+        <file>res/dimond.png</file>
+        <file>res/gold.png</file>
+        <file>res/iron.png</file>
+        <file>res/mainSlotTexture.png</file>
+        <file>res/coalBack.png</file>
+        <file>res/lever.png</file>
+        <file>res/lever_flip.png</file>
+        <file>res/MinecraftRegular-Bmg3.otf</file>
+        <file>res/mainTheme.mp3</file>
+        <file>res/slotSpinSound.mp3</file>
+    </qresource>
+    <qresource prefix="/"/>
+</RCC>
