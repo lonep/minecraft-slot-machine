@@ -52,8 +52,6 @@ int main(int argc, char *argv[])
     QObject::connect(object, SIGNAL(spinStopped()), stateMachine, SLOT(setWinState())); //Connect button to c++
     QObject::connect(object, SIGNAL(sendWinData(int, int, int)), gameManager, SLOT(handleGameResult(int, int, int))); //Connect button to c++
 
-     //TODO: изюежать повторных вызовов методов в QML с помощью флагов?
-
     while(1)
     {
          app.processEvents();
